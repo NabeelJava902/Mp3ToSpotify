@@ -1,5 +1,5 @@
 # Mp3ToSpotify
-A program which takes in a folder of mp3 songs and adds it to a playlist on spotify
+A program that takes in a folder of mp3 songs and adds it to a playlist on spotify
 # Instructions
 * Go to variables class and input the necessary information and source paths at the top
 * Set var playlist_id to spotify playlist id
