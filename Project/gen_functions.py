@@ -5,7 +5,7 @@ import pickle
 from Project.gen_util import parse
 
 # Find your mp3 folder
-dir_path = "C:/Users/Nabeel Arif/Desktop/MP3 Songs"
+dir_path = "(add root paths)/MP3 Songs"
 mp3_list = []
 
 
