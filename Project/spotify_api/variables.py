@@ -1,8 +1,8 @@
-spotify_client_id = "e0d8619ff1ad4ee09c5dff68d81a5fd5"
-spotify_secret = "f4dfd2f84be24652a331f00f5a415633"
-spotify_user_id = "rqrs3gartua8lsrjhqmkvtj5g"
+spotify_client_id = "(input client_id)"
+spotify_secret = "(input spotify_secret)"
+spotify_user_id = "(input user_id)"
 # Put playlist_id here after you use the create_playlist function
-playlist_id = "6rva9Xni3INT2S7knHEzj7"
+playlist_id = ""
 
 import pickle
 import os
@@ -12,7 +12,7 @@ class SaveLoad(object):
     user_access_token = None
     user_refresh_token = None
     did_access_token_expire = True
-    dir_path = 'C:/Users/Nabeel Arif/Desktop/Pycharm Projects/MP3ToSpotify/Project/spotify_api'
+    dir_path = '(add root paths)/Project/spotify_api'
     r_w_path = 'dump.txt'
 
     def save_tokens(self):
